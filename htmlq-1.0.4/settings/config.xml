@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Configuration file.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+//
+-->
+
+<config version="1.0" htmlParse="false">
+
+  <!-- title of the study -->
+  <item id="studyTitle">Study on BA students' attitude towards BA career developme</item>
+
+  <!-- text-align property(left|right) -->
+  <item id="textAlign">left</item>
+
+  <!-- shuffle cards (true|false)  -->
+  <item id="shuffleCards">false</item>
+
+  <!-- login required (true|false) -->
+  <item id="loginrequired">false</item>
+  <!-- login with common password (leave blank if not required) -->
+  <item id="loginPassword"></item>
+  <!-- URL to individual login script(leave blank if not required) -->
+  <item id="loginUrl"></item>
+  <!-- request mode (post|get) -->
+  <item id="loginUrlMethod"></item>
+
+  <!-- activate/deactivate optional steps (true|false) -->
+  <item id="showStep3">true</item>
+  <item id="showStep4">true</item>
+  <item id="showStep5">true</item>
+
+  <!-- HtmlQ only: disable the in-window back button -->
+  <item id="disableBackButton">true</item>
+
+  <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+  <!-- add label: <label>[STRING]</label> -->
+  <!-- add note: <note>[STRING]</note> -->
+  <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+  <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+  <item id="form">
+    <label>您的专业 / Your Major *</label>
+    <note>请输入您的专业名称 / Please enter your major</note>
+    <input type="text" required="true" maxlength="50"></input>
+
+
+    <label>您的教育层次 / Your Educational Level*</label>
+	<note>请选择您的当前教育层次。 / Please select your current educational level.</note>
+	<input type="radio" required="true">本科生 / Undergraduate;研究生 / Graduate</input>
+
+    <label>您是否有实习经历？ / Do You Have Internship Experience?*</label>
+     <note>请选择是否有过实习经历。 / Please select whether you have internship experience.</note>
+	<input type="radio" required="true">有 / Yes;无 / No</input>
+
+    <note bg="false">All fields marked with an * are mandatory.</note>
+  </item>
+
+  <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+  <item id="submitUrl">exe.php?do=save</item>
+  <!-- request mode (post|get) -->
+  <item id="submitUrlMethod">post</item>
+
+  <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+  <item id="submitMail">yourdomain.com</item>
+ </config>

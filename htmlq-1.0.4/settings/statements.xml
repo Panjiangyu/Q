@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">1.A business analysis internship is an excellent opportunity to bridge the gap between academic knowledge and real-world business needs. It’s a perfect way to learn how theory applies to actual company strategies. 商业分析实习是弥合学术知识与实际商业需求之间差距的绝佳机会。它是学习理论如何应用于实际公司战略的完美方式。</statement>
+  <statement id="2">Interning as a business analyst can significantly enhance your problem-solving and data-driven decision-making skills, which are invaluable in today’s job market. 作为商业分析师实习可以显著提升你的问题解决能力和数据驱动决策能力，这在今天的就业市场中具有无可比拟的价值。</statement>
+  <statement id="3">For anyone interested in pursuing a career in business analysis, an internship provides hands-on experience that you won’t get in the classroom. It’s an essential stepping stone in the field. 对于任何有意从事商业分析职业的人来说，实习提供了课堂上无法获得的实践经验。它是进入该领域的必经之路。</statement>
+  <statement id="4">Internships in business analysis expose you to various industries, allowing you to understand business operations on a deeper level and develop critical analytical skills that are in demand. 商业分析实习让你接触到多个行业，让你在更深层次上理解商业运作，并培养在职场上备受需求的关键分析技能。</statement>
+  <statement id="5"> While business analysis internships provide some useful insights into the field, they don’t always give you the deep, specialized knowledge that many companies look for in full-time roles. 虽然商业分析实习提供了一些有用的领域洞察，但它们并不总是能够给予你许多公司在全职岗位中所需的深度专业知识。</statement>
+  <statement id="6">Business analysis internships can be beneficial, but they may not always offer enough variety or complexity of work to give a clear picture of what a long-term career in the field would look like. 商业分析实习可能有益，但它们可能并不总是提供足够多样或复杂的工作内容，无法清晰展现该领域长期职业的样貌。</statement>
+  <statement id="7">I don't think a business analysis internship is necessary. With the right qualifications and certifications, you can get hired directly into a full-time role without any prior internship experience. 我认为商业分析实习并非必要。如果具备正确的资质和认证，你可以直接获得全职岗位，而不需要任何实习经验。</statement>
+  <statement id="8">Business analysis internships can sometimes feel like busy work. You end up doing a lot of repetitive tasks that don't contribute much to your actual skill development. 商业分析实习有时会让人觉得像是在做无意义的工作。你最终可能会做很多重复的任务，这些任务对你实际技能的提升帮助不大。</statement>
+  <statement id="9">I think business analysis has more opportunities for job growth and will get me more pay than a traditional business major.我认为商业分析有更多的就业增长机会，并且与传统的商业专业相比能让我得到更多薪水。</statement>
+  <statement id="10">Everything about the business analyst career path is flexible. I think business analysis can make my future career path full of possibilities.关于业务分析师职业道路的一切都是灵活的。我认为商业分析能让我未来的职业道路充满更多可能。</statement>
+  <statement id="11">I think working in business analytics is interesting and varied, and you can constantly learn new things.我认为商业分析的工作很有趣且具有多样性，可以不断学习新事物。</statement>
+  <statement id="12"> I look at whether business analysts have a work-life balance.我关注商业分析师能否做到工作和生活平衡。</statement>
+  <statement id="13">Both soft/technical skills are very important for a job in business analysis.对商业分析的工作来说，软/技术技能都很重要。</statement>
+  <statement id="14">Business analytics requires collaboration with multiple functions商业分析需要与多个职能部门的协作。</statement>
+  <statement id="15">The career advancement opportunities for business analysts are limited.商业分析师的职业上升空间是有限的。</statement>
+  <statement id="16">Business analysts have to pick up new skills to make the jump.商业分析师需要不断学习新的技能才能实现跨越。</statement>
+  <statement id="17">I am worried that the employment situation in business analysis is not good and it will be difficult to find a job in the future.我担心商业分析的就业形势不好，未来很难找到工作。</statement>
+  <statement id="18">Business analytics will inevitably become a mainstream industry, as the need for data-driven decision-making continues to rise across all sectors. 随着各行业对数据驱动决策的需求不断增加，商业分析必将成为主流行业。</statement>
+  <statement id="19">As artificial intelligence and machine learning continue to evolve, business analytics will evolve into a powerful tool capable of real-time predictive and prescriptive analytics. 随着人工智能和机器学习的不断发展，商业分析将演变为一种强大的工具，能够进行实时预测和指导性分析。</statement>
+  <statement id="20">Business analytics is set to become a mainstream part of every business strategy within the next decade. 商业分析将在未来十年内成为每个商业战略的主流组成部分。</statement>
+  <statement id="21">The integration of big data with business analytics will allow organizations to uncover insights previously hidden, leading to more informed decision-making and better business outcomes. 大数据与商业分析的整合将使企业能够发掘以前隐藏的洞察力，从而做出更明智的决策，取得更好的业务成果。</statement>
+  <statement id="22">The growth of business analytics may be impacted by market saturation, as both established companies and emerging startups compete for dominance in the field. 商业分析的增长可能会受到市场饱和的影响，因为既有公司和新兴创业公司在该领域争夺主导地位。</statement>
+  <statement id="23">The future of business analytics may hinge on how effectively organizations can integrate emerging technologies like AI and big data into their existing operations. 商业分析的未来可能取决于组织能够多有效地将人工智能和大数据等新兴技术融入现有运营中。</statement>
+  <statement id="24"> The business analytics industry is becoming overcrowded, with too many professionals entering the field, leading to an oversaturated job market. 商业分析行业正变得过于拥挤，进入该领域的专业人士过多，导致就业市场过饱和。</statement>
+  <statement id="25">The over-reliance on business analytics could result in organizations ignoring the human element in decision-making, leading to potentially flawed outcomes. 过度依赖商业分析可能导致组织忽视决策中的人类因素，从而导致潜在的错误结果。</statement>
+  <statement id="26">As a Bachelor of Science in Economics student, you have learned some technical courses in the use of data analysis software and are already qualified to become a junior business analyst. 作为经济学理学学士的学生已经学些了对于数据分析软件的使用和相关的一些技术性课程，已经有资格成为初级商业分析师了。</statement>
+  <statement id="27">In addition to the knowledge in the classroom, I also know that the core ability of business analysis is how to explore the real needs through communication, weigh the advantages and disadvantages, and persuade both sides to come up with a satisfactory plan. 除了课堂上的知识以外，我还知道商业分析的核心能力是如何通过沟通挖掘真正的需求，权衡利弊，说服双方拿出满意的方案。</statement>
+  <statement id="28">I have the knowledge of the complete system of finance and IT, and I can be well qualified for this job. 我有财务和IT完整体系的知识，我可以很好胜任这个职业。</statement>
+  <statement id="29">Prior to entering the business analysis industry, I already had work experience in sales and marketing, which helped me become a business analyst. 在进入商业分析行业之前，我已经有销售和市场的工作经验，对于我成为商业分析师很有帮助。</statement>
+  <statement id="30"> Currently learning data analysis tools, hoping to speed up to meet industry requirements.目前正在学习数据分析工具，希望加快达到行业要求。</statement>
+  <statement id="31">I already have some BA work experience, but every time the leader gives me the requirement after talking with the customer, what is the position of my BA role? 我已经有一定的BA工作经验,但是每次都是领导与客户谈完 requirement 给我,我BA这个角色职位到底是什么?</statement>
+  <statement id="32">I have mastered the technical ability of business analysis and some internship experience, but I still find it difficult to solve users’ pain points and provide feasible solutions. 我已经掌握了商业分析的技术能力和一些实习经验，但是还是对于解决用户痛点以及给出可实施的方案觉得有点困难。</statement>
+  <statement id="33">The courses learned in college are very theoretical, and there is a disconnect between life and feel that it is not useful in actual work, do not know how to cultivate business thinking? 大学学习到的课程很理论化，和生活有脱节，感觉用不到实际的工作当中，不知道如何培养商业思维？</statement>
+  <statement id="34">After I majored in BA, I was worried about finding a job. There was no position for a fresh graduate student in business analysis. 我读了BA专业之后为找不到工作而担忧，没有商业分析的职位要刚毕业的大学生。</statement>
+</statements>
